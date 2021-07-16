@@ -2,9 +2,10 @@
     margin: 0;
 }
 
+
 .header {
     text-align: center;
-    font-size: 25px;
+    font-size: 3vw;
     font-weight:bold;
     /*border-color: red 2px;*/
     padding: 15px;
@@ -13,6 +14,7 @@
 .navbar {
     display: flex;
     background-color:black;
+    background-size: 100%;
     width: 100%;  
 }
 
@@ -20,10 +22,10 @@
 .navbar a{
     padding: 10px;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3vw;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 30px;
 }
 
 .navbar a:hover {
@@ -53,7 +55,7 @@
 }
 
 .leftbar p{
-    font-size: 15px;
+    font-size: 1.1vw;
 }
 
 .lefttop {
@@ -67,6 +69,7 @@
     border-radius: 20px;
     flex-wrap: wrap;
     align-content: center;
+    background-size: 100%;
 }
 
 .leftmiddle {
@@ -79,6 +82,7 @@
     border-radius: 20px;
     flex-wrap: wrap;
     align-content: center;
+    background-size: 100%;
 }
 
 .leftbottom {
@@ -91,6 +95,11 @@
     border-radius: 20px;
     flex-wrap: wrap;
     align-content: center;
+    font-size: 1.5 vw;
+}
+
+h2 {
+    font-size:"1.3vw";
 }
 
 .rightbar {
@@ -118,6 +127,7 @@
     width: 50%;
     height: auto;
     flex-wrap: wrap;
+    background-size: 100%;
 }
 
 .righttopright {
@@ -131,6 +141,7 @@
     background-color:lightblue;
     border-radius: 20px;
     align-content: center;
+    background-size: 100%;
 }    
 
 .nobullet {
@@ -143,7 +154,7 @@
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 15px;  
+    font-size: 1.1vw;  
     margin: 5px;       
 }
 
@@ -155,6 +166,8 @@
     border-radius: 20px;
     align-content: cneter;
     padding: 10px;
+    background-size: 100%;
+    font-size: 1.1vw;
      
 }
 
