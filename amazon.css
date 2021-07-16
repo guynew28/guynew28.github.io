@@ -1,0 +1,43 @@
+.whole { 
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green;  */
+    justify-content: center;
+    margin: 0 350px 80px 350px; 
+}
+
+.amazonlogo{
+    display: flex;
+    justify-content: center;
+}
+
+.amazonform {
+    display: flex
+    flex-direction: column;
+    border: 2px solid gray; 
+    padding: 20px;
+}
+
+.passwordlabel {
+    display: flex;
+    flex-direction: row;
+}
+
+.forgotpassword {
+    text-align: right;
+    margin: 0;
+}
+
+h6 {
+    display: flex;
+    flex-direction: row;
+    color: lightgray;
+  }
+
+h6:before, h6:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    color: lightgray;
+  }
